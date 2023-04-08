@@ -69,13 +69,14 @@ em is multiple of root font size</br>
 <li>Fixed element takes position according to the HTML element, ignoring everything else</li>
 <li>Fixed element's position is invisible to other elements, i.e other elements would exist as if sticky was never present there</li>
 <li>Fixed element is not affected by scrolling, we would still be able to see it after scrolling down</li>
-</ol>
 </ul>
+</li>
 
 <li>Sticky
 <ul>
 <li>Sticky acts like relative or absolute normally, but when it reaches the top value(for eg.) it converts to fixed & sticks there in place</li>
 <li>position: sticky; top 10px (when scrolling down it reaches 10px from tops, now it will stick)</li>
+<li>position sticky is only sticky inside it's parent element, if parent element itself goes up then it will also go up along with it at it's end</li>
 </ul>
 </li>
 
