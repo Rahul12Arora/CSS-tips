@@ -22,3 +22,4 @@ Heirarchy of tags
 Id>Class>Element
 
 Note: if two tags are of same heirarchy are present, the latter one is implemented
+Note: Inline css overrides everything else
