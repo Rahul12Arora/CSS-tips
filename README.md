@@ -82,11 +82,13 @@ em is multiple of root font size</br>
 
 ```
 list-header {
-position:  sticky;
 position: -webkit-sticky;
 position: -moz-sticky;
 position: -ms-sticky;
 position: -o-sticky;
+//above kits for support issue
+  
+position:  sticky;
 top: 0px;
 ```
 
