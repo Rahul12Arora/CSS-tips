@@ -80,7 +80,16 @@ em is multiple of root font size</br>
 </ul>
 </li>
 
-</ol>
+```
+list-header {
+position:  sticky;
+position: -webkit-sticky;
+position: -moz-sticky;
+position: -ms-sticky;
+position: -o-sticky;
+top: 0px;
+```
 
+</ol>
 
 
