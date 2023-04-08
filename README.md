@@ -46,7 +46,6 @@ em is multiple of root font size</br>
 
 <h3>positioning</h3>
 
-```
 <ol>
 <li>Static is default for all elements  => static says to follow natural order i.e one after other</li>
 
