@@ -29,11 +29,15 @@ Note: Inline css overrides everything else</br>
 Padding & Border with box model</br>
 ```
 .box {
-height:100px;
+height:100px;                         //actual element
 width: 100px;
-padding: 10px;
-margin; 50pq;
-border: solid O black;
+padding: 10px;                        //space between element & it's border
+margin; 50px;                         //space between element & another element
+border: solid 1Opx black;
 backgrournd color: red;
 }
 ```
+
+% is % of parent</br>
+em is multiple of element's font size</br>
+em is multiple of root font size</br>
